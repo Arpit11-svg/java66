@@ -4,8 +4,7 @@ public class myException {
         try{
             udf.validate(19);
             udf.validate(12);
-        }
-        catch(invalidAgeException e){
+        } catch(invalidAgeException e){
             System.out.println(e.getMessage());
         }
     }
